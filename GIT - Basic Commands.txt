@@ -1,0 +1,61 @@
+Git Basic Commands
+
+1. Initialize repository
+git init
+
+2. Clone repository
+git clone https://github.com/user/repo.git
+
+3. Check status
+git status
+
+4. Add file
+git add filename
+
+5. Add all files
+git add .
+
+6. Commit changes
+git commit -m "message"
+
+7. View commit history
+git log
+
+8. Create branch
+git branch branch_name
+
+9. Switch branch
+git checkout branch_name
+
+10. Create and switch branch
+git checkout -b branch_name
+
+11. Merge branch
+git merge branch_name
+
+12. Show branches
+git branch
+
+13. Add remote repository
+git remote add origin repository_url
+
+14. Push to GitHub
+git push origin main
+
+15. Pull changes
+git pull origin main
+
+16. Fetch updates
+git fetch
+
+17. Remove staged file
+git reset filename
+
+18. Discard changes
+git checkout -- filename
+
+19. Delete branch
+git branch -d branch_name
+
+20. Show remote repositories
+git remote -v
